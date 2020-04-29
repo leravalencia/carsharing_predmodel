@@ -14,7 +14,7 @@ Data types:
 PROJECT STAGES:
 1.	EDA
 We are going to clean all numerical variables, windsorize and normalize them. For the categorical variables we will use one hot encoding encoding and for the location we will do unsupervised clustering with k-means and hierarchical clustering to see what will work better. We’re going to check the quality of the clusters with the silhouette score.
-For the text variables we’re going to work with natural language processing algorithms such as parsing, tokenization, bag of words, TD-IDF  and to build nlp model.  
+For the text variables we’re going to work with natural language processing algorithms such as parsing, tokenization, bag of words, TF-IDF  and to build nlp model.  
 We will do feature engineering with psa and umap.
 2.	MODELING
 The prediction will be made with supervised learning model such as OLS, Random forest and support vector machine. 
